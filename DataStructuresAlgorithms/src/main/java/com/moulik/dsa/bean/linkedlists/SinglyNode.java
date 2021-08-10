@@ -1,9 +1,9 @@
-package com.moulik.dsa.linkedLists;
+package com.moulik.dsa.bean.linkedlists;
 
 public class SinglyNode<T> {
 	
 	private SinglyNode<T> next; //Reference to the next pointer
-	private T data; //It can be any data type, e.g. String, Int, Book etc
+	private T data; //It can be any data type, e.g. String, int, Object etc
 	
 	public T getData() {
 		return data;

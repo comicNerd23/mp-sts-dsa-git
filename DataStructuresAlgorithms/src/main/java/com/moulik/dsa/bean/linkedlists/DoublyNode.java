@@ -1,4 +1,4 @@
-package com.moulik.dsa.linkedLists;
+package com.moulik.dsa.bean.linkedlists;
 
 public class DoublyNode<T> {
 	
@@ -21,6 +21,14 @@ public class DoublyNode<T> {
 	
 	public void setNext(DoublyNode<T> t) {
 		this.next = t;
+	}
+
+	public DoublyNode<T> getPrevious() {
+		return previous;
+	}
+
+	public void setPrevious(DoublyNode<T> previous) {
+		this.previous = previous;
 	}
 
 }

@@ -1,4 +1,4 @@
-package com.moulik.dsa.dynamicArrays;
+package com.moulik.dsa.arrays1;
 
 import com.moulik.dsa.bean.Book;
 
@@ -31,6 +31,18 @@ public class Test {
 		System.out.println("-----------");
 		booksDA.add(b2);
 		booksDA.add(b3);
+		booksDA.printAllElements();
+		System.out.println("-----------");
+		booksDA.removeAt(3);
+		booksDA.printAllElements();
+		System.out.println("-----------");
+		booksDA.removeAt(0);
+		booksDA.printAllElements();
+		System.out.println("-----------");
+		booksDA.remove(b3);
+		booksDA.printAllElements();
+		System.out.println("-----------");
+		booksDA.remove(b3);
 		booksDA.printAllElements();
 	}
 
