@@ -42,6 +42,9 @@ public class TestSinglyLists {
 		System.out.println("Removed "+x);
 		books.printAllBooks();
 		System.out.println("-----------------");
+		
+		String b = "";
+		
 
 	}
 
