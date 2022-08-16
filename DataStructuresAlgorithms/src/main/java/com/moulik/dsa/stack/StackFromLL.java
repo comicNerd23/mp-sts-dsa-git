@@ -6,17 +6,15 @@ import java.util.LinkedList;
 
 
 /**
- * Stack is a DS where elements are added/removed only from one side (also called Top). It implements LIFO.
- *
  * In this stack, we are adding/removing elements at the end of the list.
  */
-public class StackLL<T> implements Iterable<T> {
+public class StackFromLL<T> implements Iterable<T> {
 	
 	private LinkedList<T> list = new LinkedList<>();
 	
-	public StackLL() {}
+	public StackFromLL() {}
 	
-	public StackLL(T t) {
+	public StackFromLL(T t) {
 		list.add(t);
 	}
 	
